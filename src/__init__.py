@@ -13,7 +13,7 @@ def create_app():
     db.init_app(app)
 
     # Import blueprints
-    from app.routes import main
+    from src.routes import main
 
     app.register_blueprint(main)
 

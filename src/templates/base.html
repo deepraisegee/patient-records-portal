@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      {% block title %}
+        RECS Patient Records Portal
+      {% endblock %}
+    </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/general.css') }}" />
+  </head>
+  <body>
+    <header class="nav-header container">
+      <img class="logo" src="{{ url_for('static', filename='img/logo.png') }}" alt="Logo" />
+      <nav>
+        <ul class="nav-item">
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/about">About</a>
+          </li>
+          <li>
+            <a class="btn" href="/login">Login</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    {% block content %}
+
+    {% endblock %}
+
+    <footer>
+      <p>
+        &copy; <span id="copy-date"></span> RECS Patient Records Portal
+      </p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script>
+      document.getElementById('copy-date').innerText = new Date().getFullYear()
+    </script>
+  </body>
+</html>

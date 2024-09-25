@@ -1,0 +1,34 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.logo-header {
+  width: 16rem;
+}
+
+.auth-form {
+  margin-top: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  width: 25%;
+  font-size: 1.6rem;
+}
+
+.auth-form button {
+  font-size: 1.8rem;
+}
+
+select,
+input {
+  height: 3.6rem;
+  outline: none;
+  border: 1px solid rgb(13, 126, 120);
+  border-radius: 0.5rem;
+  color: #343434;
+  padding: 0.4rem 1.2rem;
+}

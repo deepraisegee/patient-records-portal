@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f4f4f4;
+  line-height: 1;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  color: #343434;
+  padding: 1.2rem 0;
+  font-size: 1.4rem;
+  letter-spacing: 1.3;
+}
+
+.container {
+  padding: 10px 60px;
+}
+
+.heading-1 {
+  color: #343434;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 5px 12px -4px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 1px 5px 12px -4px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 1px 5px 12px -4px rgba(0, 0, 0, 0.59);
+}
+
+.nav-item {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+  font-size: 1.8rem;
+}
+
+.nav-item li a:link,
+.nav-item li a:visited {
+  text-decoration: none;
+  color: rgb(13, 126, 120);
+  font-weight: 500;
+  letter-spacing: 1.5;
+  transition: all 0.3s;
+}
+
+.nav-item li a:hover,
+.nav-item li a:active {
+  opacity: 0.8;
+}
+
+.logo {
+  width: 50px;
+}
+
+.btn {
+  background-color: rgb(13, 126, 120);
+  color: #fff !important;
+  border-radius: 0.5rem;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-weight: 600 !important;
+  padding: 1.2rem 2.5rem;
+  box-shadow: 1px 5px 12px -4px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 1px 5px 12px -4px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 1px 5px 12px -4px rgba(0, 0, 0, 0.59);
+}
+
+/* h1,
+h2 {
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  max-width: 300px;
+}
+
+button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+} */
+
+button:hover {
+  background-color: #218838;
+}
