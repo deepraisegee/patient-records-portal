@@ -31,34 +31,36 @@ This is a **Patient Records Portal** built with Flask (backend) and HTML, CSS, J
 
 ## Project Structure
 
+```
 /patient-records-portal
 │
 ├── /src
-│ ├── /auth
-│ │ ├── \_\_init\_\_.py
-│ │ ├── \_\_init\_\_.py
-│ │ ├── config.py
-│ │ └── routes.py  
-│ ├── /static
-│ │ ├── /css
-│ │ │ ├── auth.css
-│ │ │ └── general.css
-│ │ ├── /img
-│ │ │ ├── favicon.ico
-│ │ │ └── logo.png
-│ │ └── /js
-│ │ └── script.js
-│ ├── /templates
-│ │ ├── base.html
-│ │ ├── index.html
-│ │ ├── login.html
-│ │ └── register.html
-│ ├── /tests
-│ │ └── \_\_init\_\_.py
-│ ├── models.py
-│ └── routes.py
+│   ├── /auth
+│   │   ├── __init__.py
+│   │   ├── __init__.py
+│   │   ├── config.py
+│   │   └── routes.py
+│   ├── /static
+│   │   ├── /css
+│   │   │   ├── auth.css
+│   │   │   └── general.css
+│   │   ├── /img
+│   │   │   ├── favicon.ico
+│   │   │   └── logo.png
+│   │   └── /js
+│   │       └── script.js
+│   ├── /templates
+│   │   ├── base.html
+│   │   ├── index.html
+│   │   ├── login.html
+│   │   └── register.html
+│   ├── /tests
+│   │   └── __init__.py
+│   ├── models.py
+│   └── routes.py
 ├── .gitignore
 ├── config.py
 ├── main.py
 ├── README.md
 └── requirements.txt
+```
